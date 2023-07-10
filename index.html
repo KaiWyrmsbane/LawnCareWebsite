@@ -7,28 +7,45 @@
     <title>Lawn Mower Dealership</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="../styles/IndexStyleSheet.css">
+    <link rel="stylesheet" href="./styles/IndexStyleSheet.css">
+    <script src="https://code.jquery.com/jquery-3.7.0.js"
+        integrity="sha256-JlqSTELeR4TLqP0OG9dxM7yDPqX1ox/HfgiSLBj8+kM=" crossorigin="anonymous"></script>
+    <script src="./scripts/APICode.js" async defer></script>
+    <script src="./scripts/store.js" async defer></script>
 </head>
 
 <body>
-    <div class="storeWindow">
+    <div class="mainWindow">
         <div class="weeklyforcast">
             <h1>This will be the forecast section</h1>
             <!-- we will call an api here and present a 7 day forcast for the week -->
         </div>
-        <div class="filters">
-            <h1>This will be the filter section</h1>
-            <!-- here we'll be passing values into a function that will the storeView -->
-        </div>
-        <div class="storeView">
-            <h1>This will be the storeView section</h1>
-            <!-- we'll have an array of lawnmowers which will be presented here -->
+        <div class="mainWindowBottom">
+            <div class="filters">
+                <h1>This will be the filter section</h1>
+                <!-- here we'll be passing values into a function that will the storeView -->
+            </div>
+            <div class="storeView">
+                <table>
+                    <tr>
+                        <th>Brand</th>
+                        <th>Type</th>
+                    </tr>
+                    <tbody id="mowersInStock">
+
+                    </tbody>
+                </table>
+                <!-- <h1>This will be the storeView section</h1>
+                <ul id="mowersInStock">
+                </ul> -->
+                <!-- we'll have an array of lawnmowers which will be presented here -->
+            </div>
         </div>
     </div>
     <footer>
 
     </footer>
-    <script src="" async defer></script>
+  
 </body>
 <!-- Unsure which api I could use for pulling over lawn mowers -->
 
