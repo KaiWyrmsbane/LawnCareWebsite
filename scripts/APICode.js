@@ -8,8 +8,8 @@ async function CheckWeather() {
   var data = await responce.json();
 
   console.log(data);
-
-  document.querySelector(".cityname").innerHTML = data.city_name;
+  document.querySelector(".cityname").innerHTML = data.data[0].city_name;
+  document.querySelector(".temp").innerHTML = data.data[0].app_temp;
 }
 
 CheckWeather();
