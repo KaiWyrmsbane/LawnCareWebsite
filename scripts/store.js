@@ -56,3 +56,10 @@ function buildTable(data) {
     table.innerHTML += row;
   }
 }
+
+//use this funtion to filtrate the Array of lawnmowers
+function filterTable(brand, type) {
+  if (brand == "Scag") {
+    console.log(mowers[6].Brand);
+  }
+}
