@@ -57,7 +57,5 @@ html{
     justify-content: start;
 }
 .cityname, .temp{
-    width: 3em;
-    height: 3em;
     margin: auto 4em 0 0;
 }
