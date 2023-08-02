@@ -1,5 +1,3 @@
-var APIKey = "4c84b72661e14aa196e635179c13c3fd";
-
 request
   .get("https://api.weatherbit.io/v2.0/subscription/usage?key=API_KEY", {
     method: "post",
