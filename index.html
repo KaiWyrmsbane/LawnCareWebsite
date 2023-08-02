@@ -18,13 +18,19 @@
             <h1 class="cityname"></h1>
             <h1 class="temp"></h1>
         </div>
-        <div class="Store">
-            <div class="filters">
-                <h1>This will be the filter section</h1>
-                <!-- here we'll be passing values into a function that will the storeView -->
+        <div class="StoreSection">
+            <div class="filterSection">
+                <div class="filterCheckbox">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
+                    <label for="vehicle1"> Cub Cadet</label><br>
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+                    <label for="vehicle2"> Troy Bilt</label><br>
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+                    <label for="vehicle3"> Craftsman</label>
+                </div>
             </div>
             <div class="storeView">
-                <table>
+                <table class="StoreTable">
                     <tr>
                         <th>Brand</th>
                         <th>Type</th>

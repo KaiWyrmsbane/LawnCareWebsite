@@ -1,4 +1,4 @@
-.Store{
+.StoreSection{
     display: flex;
     height:80%;
     justify-content:space-between;
@@ -13,14 +13,23 @@
     justify-content: space-between;
     border: solid blue 5px;
 }
-.storeView, .filters{
+.storeView, .filterSection{
     border: solid red 5px;
 }
 .storeView{
     width: 80%;
 }
-.filters{
+.StoreTable{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}
+.filterSection{
     width: 20%;
+}
+.filterCheckbox{
+    margin: 2em;
+    height: 90%;
 }
 body{
     display: flex;
