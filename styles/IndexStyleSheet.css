@@ -1,20 +1,26 @@
-h1 {
-   border: solid red 5px;
-}
-.mainWindowBottom{
+.Store{
     display: flex;
-    height:fit-content;
-    justify-content: space-evenly;
+    height:80%;
+    justify-content:space-between;
     border: solid  rgb(83, 0, 69) 5px;
 }
 /* we may not need the main window, is body the same */
 .mainWindow{
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     border: solid blue 5px;
 }
-.storeView{
+.storeView, .filters{
     border: solid red 5px;
+}
+.storeView{
+    width: 80%;
+}
+.filters{
+    width: 20%;
 }
 body{
     display: flex;
@@ -35,4 +41,14 @@ footer{
 }
 html{
     height: 100%;
+}
+.weeklyforcast{
+    height: 20%;;
+    display: flex;
+    justify-content: start;
+}
+.cityname, .temp{
+    width: 3em;
+    height: 3em;
+    margin: auto 4em 0 0;
 }

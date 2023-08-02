@@ -1,4 +1,3 @@
-//youtube video to explain
 //https://www.youtube.com/watch?v=MIYQR-Ybrn4&t=1118s
 const AppKey = "4c84b72661e14aa196e635179c13c3fd";
 const AppUrl = "https://api.weatherbit.io/v2.0/current?postal_code=40165";
