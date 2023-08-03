@@ -1,8 +1,10 @@
 //https://www.youtube.com/watch?v=MIYQR-Ybrn4&t=1118s
 const AppKey = "4c84b72661e14aa196e635179c13c3fd";
+//this will give me a 7 day forecast in shepherdsville, ky
 const AppUrl =
   "https://api.weatherbit.io/v2.0/forecast/daily?postal_code=40165&country=us&days=7&units=I&lang=el";
 
+//checkweather will display the 7 day weather forecast
 async function CheckWeather() {
   const response = await fetch(AppUrl + `&key=${AppKey}`);
   var data = await response.json();

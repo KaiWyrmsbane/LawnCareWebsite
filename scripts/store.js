@@ -3,42 +3,52 @@ let mowers = [
   {
     Brand: "Cub Cadet",
     type: "Riding Mower",
+    cost: "$900,00",
   },
   {
     Brand: "Troy Bilt",
     type: "Riding Mower",
+    cost: "$680,00",
   },
   {
     Brand: "Troy Bilt",
     type: "Riding Mower",
+    cost: "$567.99",
   },
   {
     Brand: "Troy Bilt",
     type: "Riding Mower",
+    cost: "$675.99",
   },
   {
     Brand: "Troy Bilt",
     type: "Riding Mower",
+    cost: "$599.00",
   },
   {
     Brand: "Troy Bilt",
     type: "Riding Mower",
+    cost: "$650.00",
   },
   {
     Brand: "Scag",
     type: "Zero-Turn Mower",
+    cost: "$2,000.00",
   },
   {
     Brand: "Craftsman",
     type: "Push Mower",
+    cost: "$159.99",
   },
   {
     Brand: "Craftsman",
     type: "Zero-Turn Mower",
+    cost: "$435.99",
   },
   {
     Brand: "Craftsman",
     type: "Riding Mower",
+    cost: "$400.00",
   },
 ];
 
@@ -51,6 +61,7 @@ function buildTable(data) {
     let row = `<tr>
         <td>${data[i].Brand}</td>
         <td>${data[i].type}</td>
+        <td>${data[i].cost}</td>
       </tr>`;
 
     table.innerHTML += row;
