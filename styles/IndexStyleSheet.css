@@ -1,8 +1,8 @@
 .StoreSection{
     display: flex;
-    height:80%;
+    height:90%;
     justify-content:space-between;
-    border: solid  rgb(83, 0, 69) 5px;
+    /* border: solid  rgb(83, 0, 69) 5px; */
 }
 /* we may not need the main window, is body the same */
 .mainWindow{
@@ -11,10 +11,12 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    border: solid blue 5px;
+    /* border: solid blue 5px; */
 }
-.storeView, .filterSection{
-    border: solid red 5px;
+.weeklyforcast, .storeView, .filterSection, td, th{
+    border: solid black 2px;
+    border-radius: 10px;
+    margin:1px;
 }
 .storeView{
     width: 80%;
@@ -36,7 +38,7 @@ body{
     justify-content: center;
     align-items: center;
     position:static;
-    border: dashed palegreen 5px;
+    /* border: solid red 5px; */
     margin:3em;
     height: 85%;
     width: 95%;
@@ -52,7 +54,7 @@ html{
     height: 100%;
 }
 .weeklyforcast{
-    height: 20%;;
+    height:10%;
     display: flex;
     justify-content: start;
 }
@@ -66,3 +68,10 @@ html{
 .show{
     display: block;
 }
+#filterCheckbox{
+    display: flex;
+}
+/* td, th{
+    border: solid black 1px;
+    border-radius: 10px;
+} */
