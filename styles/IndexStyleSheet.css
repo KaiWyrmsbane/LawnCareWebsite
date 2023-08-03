@@ -2,7 +2,6 @@
     display: flex;
     height:90%;
     justify-content:space-between;
-    /* border: solid  rgb(83, 0, 69) 5px; */
 }
 /* we may not need the main window, is body the same */
 .mainWindow{
@@ -11,15 +10,19 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* border: solid blue 5px; */
 }
-.weeklyforcast, .storeView, .filterSection, td, th{
-    border: solid black 2px;
+.weeklyforcast, .filterSection, td, th{
+    border: solid rgb(12, 12, 12) 2px;
     border-radius: 10px;
     margin:1px;
 }
+.weeklyforcast{
+    background-color: white;
+}
 .storeView{
     width: 80%;
+    border-radius: 10px;
+    margin:1px;
 }
 .StoreTable{
     height: 100%;
@@ -28,6 +31,10 @@
 }
 .filterSection{
     width: 20%;
+    background-color: white;
+}
+td,th{
+    background-color: white;
 }
 .filterCheckbox{
     margin: 2em;
@@ -38,17 +45,11 @@ body{
     justify-content: center;
     align-items: center;
     position:static;
-    /* border: solid red 5px; */
     margin:3em;
     height: 85%;
     width: 95%;
-}
-footer{
-    border: solid red 5px;
-    position:absolute;
-    bottom: 1%;
-    width: 95%;
-    height: 5%
+    /* background-color: white; */
+    /* border-radius: 10px; */
 }
 html{
     height: 100%;
@@ -71,7 +72,44 @@ html{
 #filterCheckbox{
     display: flex;
 }
-/* td, th{
-    border: solid black 1px;
-    border-radius: 10px;
-} */
+.objects{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+}
+
+/* footer styles */
+footer{
+  height: 2em;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-links{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 100%;
+}
+
+footer > div > a > i {
+  color: rgb(255, 255, 255);
+}
+
+i:hover{
+    color: rgb(12, 231, 30);
+}
+button:hover{
+    background-color:rgb(12, 231, 30);
+    font-weight:900;
+}
+
+/* make an image the background */
+html{
+    background-image: url("../pictures/lawnpicture.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
