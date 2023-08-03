@@ -59,3 +59,10 @@ html{
 .cityname, .temp{
     margin: auto 4em 0 0;
 }
+/* testing */
+.box{
+    display: none;
+}
+.show{
+    display: block;
+}

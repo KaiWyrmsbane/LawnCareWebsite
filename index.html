@@ -19,14 +19,26 @@
             <h1 class="temp"></h1>
         </div>
         <div class="StoreSection">
+            <!-- this youtube vid helped me create the filter -->
+            <!-- https://www.youtube.com/watch?v=HRpjAGT7X4Y -->
             <div class="filterSection">
-                <div class="filterCheckbox">
-                    <input type="checkbox" id="vehicle1" name="vehicle1" value="Bike">
-                    <label for="vehicle1"> Cub Cadet</label><br>
-                    <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
-                    <label for="vehicle2"> Troy Bilt</label><br>
-                    <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
-                    <label for="vehicle3"> Craftsman</label>
+                <div id="filterCheckbox">
+                    <button class="btn" onclick="FilterObjects('all')">Show all mowers</button>
+                    <button class="btn" onclick="FilterObjects('Push')">Push Mowers</button>
+                    <button class="btn" onclick="FilterObjects('Riding')">Riding Mowers</button>
+                    <button class="btn" onclick="FilterObjects('Zero-turn')">Zero-turn Mowers</button>
+                </div>
+                <div class="objects">
+                    <div class="box Push">Craftsman Push Mower</div>
+                    <div class="box Riding">Cub Cadet Riding Mower</div>
+                    <div class="box Riding">Craftsman Riding Mower</div>
+                    <div class="box Riding">Craftsman Riding Mower</div>
+                    <div class="box Riding">Craftsman Riding Mower</div>
+                    <div class="box Riding">Craftsman Riding Mower</div>
+                    <div class="box Riding">Craftsman Riding Mower</div>
+                    <div class="box Riding">Craftsman Riding Mower</div>
+                    <div class="box Zero-turn">Craftsman Zero-Turn</div>
+                    <div class="box Zero-turn">Scag Zero-Turn</div>
                 </div>
             </div>
             <div class="storeView">
