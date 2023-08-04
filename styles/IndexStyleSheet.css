@@ -123,3 +123,38 @@ html{
     background-repeat: no-repeat;
     background-size: 100% 100%;
 }
+
+@media screen and (max-width: 1330px) {
+    .StoreSection{
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .mainWindow{
+        justify-content: center;
+        align-items: center;
+    }
+    .filterSection, .storeView{
+        width:100%;
+    }
+    .filterSection{
+        height: 45%;
+    }
+    .weeklyforcast{
+        width: auto;
+    }
+    body{
+        position: fixed;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .weeklyforcast{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        width: 78%;
+    }
+}
