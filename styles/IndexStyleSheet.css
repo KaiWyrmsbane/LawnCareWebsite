@@ -64,7 +64,9 @@ html{
 .temp{
     margin: auto 1em auto 0;
 }
-/* testing */
+h1{
+    margin: auto 0 auto 0;
+}
 .box{
     display: none;
 }
