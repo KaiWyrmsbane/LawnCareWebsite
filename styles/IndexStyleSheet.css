@@ -16,9 +16,6 @@
     border-radius: 10px;
     margin:1px;
 }
-.weeklyforcast{
-    background-color: white;
-}
 .storeView{
     width: 80%;
     border-radius: 10px;
@@ -59,9 +56,13 @@ html{
     height:10%;
     display: flex;
     justify-content: start;
+    background-color: white;
 }
-.cityname, .temp{
-    margin: auto 4em 0 0;
+.cityname{
+    margin: auto 1em auto 1em;
+}
+.temp{
+    margin: auto 1em auto 0;
 }
 /* testing */
 .box{
@@ -103,7 +104,11 @@ footer > div > a > i {
 i:hover{
     color: rgb(12, 231, 30);
 }
+button{
+    border-radius: 5px;
+}
 button:hover{
+    border-radius: 5px;
     background-color:rgb(12, 231, 30);
     font-weight:900;
 }
